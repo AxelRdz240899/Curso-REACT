@@ -26,8 +26,7 @@ function App() {
   ]
 
   const addExpenseHandler = (receivedExpense) => {
-    expenses.push(receivedExpense);
-    console.log("Lista de Gastos: ", expenses);
+    expenses.push(receivedExpense);    
   }
   return (
     <div>

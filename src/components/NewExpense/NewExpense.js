@@ -13,7 +13,6 @@ const NewExpense = (props) => {
     }
     return (
         <div className="new-expense">
-            {/* Se implementa  un callback desde el formulario (Hijo de este componente)*/}
             <ExpenseForm onSaveExpenseClick = {saveExpenseHandler} />
         </div>
     );
